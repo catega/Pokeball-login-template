@@ -1,0 +1,114 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+}
+
+#content{
+	position: absolute;
+	margin: auto;
+	width: auto;
+	height: 300px;
+	transition: all 1.5s;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	text-align: center;
+	z-index: 20;
+}
+
+#bot,
+#top{
+	width: 100%;
+	height: auto;
+}
+
+#top{
+	position: absolute;
+	bottom: 0;
+	content: url(../img/pokeBot.png);
+}
+
+#bot{
+	content: url(../img/pokeTop.png);
+}
+
+#centro{
+	position: absolute;
+	width: 38px;
+	height: 38px;
+	background-color: black;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	border-radius: 50%;
+}
+
+#centro:hover{
+	background-color: red;
+}
+
+#login-content{
+	height: 0px;
+	display: block;
+	position: absolute;
+	padding: 20px 10px;
+	border-radius: 5px;
+	background-color: grey;
+	width: 250px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	text-align: center;
+	transition: all 2s;
+}
+
+a{
+	margin-top: 2em;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+
+input[type="text"],
+input[type="password"]{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	border: none;
+	width: calc(70% - 4em);
+	padding: 1em 2em;
+	background-color: rgba(0,0,0,.2);
+	font-size: 1em;
+	color: #fff;
+	transition: all .5s;
+}
+
+input[type="submit"]{
+	border: none;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 0 2em;
+	line-height: 3;
+	background: #FE2E2E;
+	color: #f7f7f7;
+	text-transform: uppercase;
+	font-size: 1em;
+	cursor: pointer;
+	top: -60px;
+	transition: all 2s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+	background: #fff;
+	width: calc(100% - 4em);
+	color: black;
+}
+
+input[type="submit"]:hover{
+	background: red;
+}
