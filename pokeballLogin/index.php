@@ -1,5 +1,6 @@
 <?php
 ?>
+<!-- Pokéball login template by catega -->
 <!DOCTYPE html>
 <html>
 <head>
