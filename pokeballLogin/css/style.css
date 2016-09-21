@@ -34,7 +34,7 @@ body{
 	content: url(../img/pokeTop.png);
 }
 
-#centro{
+#center{
 	position: absolute;
 	width: 38px;
 	height: 38px;
@@ -45,7 +45,7 @@ body{
 	border-radius: 50%;
 }
 
-#centro:hover{
+#center:hover{
 	background-color: red;
 }
 
