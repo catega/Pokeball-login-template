@@ -11,16 +11,16 @@
 <body>
 	<div id="content">
 		<div id="top"></div>
-		<div id="centro"></div>
+		<div id="center"></div>
 		<div id="bot"></div>
 	</div>
 	<div id="login-content">
 		<form action="#" method="post">
-			<input type="text" name="username" placeholder="Usuario">
-			<input type="password" name="password" placeholder="Contraseña">
+			<input type="text" name="username" placeholder="User">
+			<input type="password" name="password" placeholder="Password">
 			<input type="submit" value="Login">
 		</form>
-		<a href="#">¿No estás registrado?</a>
+		<a href="#">¿Forgot yout password?</a>
 	</div>
 </body>
 </html>
