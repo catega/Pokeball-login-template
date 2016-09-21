@@ -9,6 +9,6 @@ $(document).ready(function(){
 		$("#content").css({"z-index": "0"});
 		$("a").css({"color": "grey"});
 		
-	})
+	});
 
 });
